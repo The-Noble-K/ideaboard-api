@@ -1,5 +1,5 @@
 module Api::V1
-    class IdeasController < ApplcationController
+    class IdeasController < ApplicationController
         def index
             @ideas = Idea.all
             render json: @ideas
